@@ -4,6 +4,7 @@
 body {
   background-color: #f5f5f5;
   color: #4e4e4e;
+  
 }
 
 h1,
@@ -93,6 +94,8 @@ a:hover {
 
 .overlay-mf {
   background-color: #0078ff;
+  /* background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%); */
+
 }
 
 .overlay-mf {
@@ -753,6 +756,9 @@ a:hover {
   color: #fff;
 }
 
+.descrip {
+  font-size: 30px;
+}
 
 .picofme {
   width: 180px;
@@ -769,9 +775,9 @@ a:hover {
   background-color: rgba(0, 108, 232, 0.822);
 
   /* background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%); */
-  /* background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%); */
-/* 
-  background-image: linear-gradient(to right, #2A5470 0%, 
+  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+
+  /* background-image: linear-gradient(to right, #2A5470 0%, 
   #4C4177 100%); */
 
   /* background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%); */
@@ -938,6 +944,16 @@ a:hover {
 .counter-box {
   color: #fff;
   text-align: center;
+  
+  
+}
+
+.services-title {
+  color: white;
+}
+
+.service-line {
+  background-color: white;
 }
 
 @media (min-width: 577px) {
