@@ -1026,6 +1026,15 @@ a:hover {
   background-color: #fff;
 }
 
+.portfolio-sub {
+  font-size: 20px;
+
+}
+
+.bi-github {
+  /* width: 100px !important; */
+}
+
 .work-img:hover img {
   transform: scale(1.05);
 }
