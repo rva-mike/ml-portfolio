@@ -128,7 +128,7 @@ a:hover {
 }
 
 .sect-pt4 {
-  padding-top: 4rem;
+  padding-top: 3rem;
 }
 
 .sect-mt4 {
@@ -144,7 +144,7 @@ a:hover {
 
 /*--/ Title A /--*/
 .title-box {
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
 }
 
 .title-a {
@@ -159,6 +159,13 @@ a:hover {
   color: #4e4e4e;
 }
 
+.line-mf-two {
+  width: 40px;
+  height: 3px;
+  background-color: #0078ff;
+  margin: 0 auto;
+}
+
 .line-mf {
   width: 40px;
   height: 5px;
@@ -166,24 +173,27 @@ a:hover {
   margin: 0 auto;
 }
 
+
 /*--/ Title Left /--*/
 .title-box-2 {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .title-left {
   font-size: 2rem;
+  font-weight: 500;
   position: relative;
 }
 
-.title-left:before {
+/* .title-left:before {
   content: "";
   position: absolute;
+  text-align: center;
   height: 3px;
   background-color: #0078ff;
-  width: 100px;
+  width: 60px;
   bottom: -12px;
-}
+} */
 
 /*------/ Box /------*/
 .box-pl2 {
@@ -755,9 +765,22 @@ a:hover {
   color: #fff;
 }
 
+.learn-more {
+  border: 1px solid #fff;
+  background-color: transparent;
+  font-weight: 500 !important;
+  font-size: 20px;
+}
+
+.learn-more:hover {
+  background-color: #fff;
+  color: #036ade;
+}
+
+
 .descrip {
   font-size: 30px;
-}
+  font-weight: 200;}
 
 .picofme {
   width: 180px;
@@ -856,8 +879,8 @@ a:hover {
 # About
 --------------------------------------------------------------*/
 .about-mf .box-shadow-full {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .about-mf .about-img {
@@ -866,6 +889,12 @@ a:hover {
 
 .about-mf .about-img img {
   margin-left: 10px;
+}
+
+.resume{
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 12px;
 }
 
 @media (min-width: 767px) {
@@ -890,6 +919,10 @@ a:hover {
   height: 0.7rem;
   background-color: #0078ff;
   
+}
+
+.lead {
+  font-weight: 400;
 }
 
 /*--------------------------------------------------------------
@@ -939,6 +972,7 @@ a:hover {
 
 .service-box .s-description {
   color: #4e4e4e;
+  font-size: 19px;
   
 }
 
