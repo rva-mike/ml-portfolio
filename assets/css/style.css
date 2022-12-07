@@ -892,6 +892,7 @@ a:hover {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  margin-bottom: 5px;
 }
 
 .about-mf .about-img {
