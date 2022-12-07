@@ -784,7 +784,8 @@ a:hover {
 
 .descrip {
   font-size: 30px;
-  font-weight: 200;}
+  font-weight: 200 !important;
+}
 
 .picofme {
   width: 180px;
@@ -885,6 +886,12 @@ a:hover {
 .about-mf .box-shadow-full {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.about-info {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .about-mf .about-img {
@@ -1571,6 +1578,6 @@ footer .credits a {
 }
 
 .footer-github:hover {
-  color: rgb(225, 225, 225) !important;
-
+  color: rgb(231, 231, 231) !important;
+  
 }
