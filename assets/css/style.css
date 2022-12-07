@@ -454,6 +454,10 @@ a:hover {
   border-radius: 5rem;
 }
 
+.port-btn {
+  font-weight: 400 !important;
+}
+
 .btn-lg {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
@@ -1545,7 +1549,7 @@ a:hover {
 footer {
   text-align: center;
   color: #fff;
-  padding: 25px 0;
+  padding: 20px 0;
   background: #0062d3;
 }
 
@@ -1559,4 +1563,14 @@ footer .credits {
 
 footer .credits a {
   color: #fff;
+}
+
+.footer-github {
+  font-size: 30px;
+
+}
+
+.footer-github:hover {
+  color: rgb(225, 225, 225) !important;
+
 }
