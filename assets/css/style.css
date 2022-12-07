@@ -1575,7 +1575,7 @@ footer .credits a {
 
 .footer-github {
   font-size: 30px;
-
+  margin-left: 3px;
 }
 
 .footer-github:hover {
