@@ -690,8 +690,7 @@ a:hover {
   position: absolute;
   top: 55px;
   right: 15px;
-  bottom: 15px;
-  left: 15px;
+  text-align: center;
   padding: 10px 0;
   background-color: #fff;
   overflow-y: auto;
