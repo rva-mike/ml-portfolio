@@ -343,7 +343,7 @@ a:hover {
   bottom: 15px;
   z-index: 996;
   background: #0078ff;
-  background: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+  /* background: linear-gradient(to right, #6a11cb 0%, #2575fc 100%); */
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -681,8 +681,8 @@ a:hover {
 
 .navbar-mobile .mobile-nav-toggle {
   position: absolute;
-  top: 15px;
-  right: 15px;
+  top: 22px;
+  right: 13px;
 }
 
 .navbar-mobile ul {
@@ -799,9 +799,16 @@ a:hover {
 .hero .overlay-itro {
   background-color: rgba(0, 0, 0, 0.6);
   background-color: rgba(0, 108, 232, 0.822);
-
+justify-content: ;
   /* background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%); */
-  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+  /* background-image: linear-gradient(to right, #1f7b95fb 0%, #2575fc 100%); */
+
+  background-image: linear-gradient(to right, #4f1cdcba 0%, #2575fc 100%);
+
+
+    /* used to use  */
+    /* background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%); */
+
 
   /* background-image: linear-gradient(to right, #2A5470 0%, 
   #4C4177 100%); */
