@@ -5,34 +5,10 @@
   }
   
   body {
-    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+    background-color: #2575fc;
     display: flex;
     justify-content: center;
     min-height: 100vh;
   }
-  .waviy {
-    position: relative;
-    -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
-    font-size: 60px;
-  }
-  .waviy span {
-    position: relative;
-    display: inline-block;
-    color: #fff;
-    text-transform: uppercase;
-    animation: waviy 1s infinite;
-    animation-delay: calc(.1s * var(--i));
-    
-  }
-  @keyframes waviy {
-    0%,40%,100% {
-      transform: translateY(0)
-    }
-    20% {
-      transform: translateY(-20px)
-    }
-  }
 
-  .sub-text {
-    margin-top: 80px;
-  }
+  
